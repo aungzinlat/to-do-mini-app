@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.task {
+  @apply flex items-center w-full h-16 mb-3 pl-4 border border-neutral-700 rounded;
+}
+
