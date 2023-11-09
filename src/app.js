@@ -3,9 +3,7 @@ import { addBtnHandler } from "./handler";
 
 export default class ToDoApp {
   constructor() {}
-  init() {
-    console.log("hello");
-  }
+  init() {}
 
   handler() {
     addBtn.addEventListener("click", addBtnHandler);

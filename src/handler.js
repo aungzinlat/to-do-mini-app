@@ -4,7 +4,12 @@ let id = 0;
 
 export const addBtnHandler = () => {
   const li = document.createElement("li");
-  li.classList.add("task");
+  li.classList.add(
+    "task",
+    "animate__animated",
+    "animate__slideInLeft",
+    "duration-300"
+  );
   const idCount = id++;
 
   const text = addTextInput.value;
